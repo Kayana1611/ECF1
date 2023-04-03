@@ -1,0 +1,104 @@
+.nav-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.header {
+    background: #9CDFE4;
+    padding: 30px 0;
+    border-bottom: 2px solid #000;
+}
+
+.header-title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.btn accueil {
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.image-accueil {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('assets/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-size: cover;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #34ced8;
+}
+
+.btn_page1{
+    border-radius: 10px;
+    background-color: #EFFAFB;
+}
+
+.content {
+    column-count: 3;
+    column-gap: 30px;
+    color: #fff;
+}
+
+.footer {
+    background: #6FC9D0;
+    text-align: center;
+    padding: 20px;
+}
+
+.main {
+    min-height: calc(100vh - 265px);
+    background: url('assets/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-size: cover;
+    padding: 20px 30px;
+}
+
+.main-p2 {
+    background: url('assets/valeria-gennaro-A87vPOqwJAM-unsplash.jpg') 100%;
+    background-size: cover;
+}
+
+.main-p3 {
+    background: url('assets/kouji-tsuru-45FV5vIRrI4-unsplash.jpg') 100%;
+    background-size: cover;
+
+}
+
+
+.footer{
+    color: #fff;
+    border-top: 2px solid #000;
+}
+
+.nav-link{
+    color: #23c6d1;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #9cdfe4;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+    background: #23c6d1;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.accordion-button:not(.collapsed)
+{
+    background-color: #9cdfe4;
+    color: white;
+}
